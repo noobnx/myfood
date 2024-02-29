@@ -1,0 +1,121 @@
+:root {
+   --color-white: #ffffff;
+   --color-black: #000000;
+   --color-bg-btn: #cccccc;
+}
+
+html {
+   font-family: Karma;
+   font-size: 62.5%;
+   user-select: none;
+}
+
+body {
+   font-size: 1.6rem;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20rem;
+   position: sticky;
+   top: 0;
+   background-color: var(--color-white);
+}
+
+.menu__icon {
+   padding: 2rem 1.5rem;
+   cursor: pointer;
+}
+.menu__icon:hover {
+   background-color: var(--color-bg-btn);
+}
+.menu__nav {
+   position: fixed;
+   top: 0;
+   left: -330px; /* Menu ẩn bên trái */
+   width: 330px;
+   height: 100%;
+   transition: left 0.5s ease; /* Hiệu ứng di chuyển từ bên trái */
+   background-color: #dddddd;
+}
+.menu__nav > .menu__icon {
+   position: absolute;
+   right: 0;
+}
+#Layer_1 {
+   display: none;
+}
+.menu__nav.open {
+   left: 0; /* Hiển thị menu từ bên trái */
+}
+.menu__nav--list {
+   margin-top: 8rem;
+}
+.menu__nav--item {
+   padding: 2rem 0 2rem 2rem;
+}
+.menu__nav--item a {
+   font-size: 3rem;
+   text-decoration: none;
+   color: var(--color-black);
+}
+.menu__nav--item:hover {
+   background-color: var(--color-bg-btn);
+   cursor: pointer;
+}
+.brand h1,
+.contact h1 {
+   font-size: 3rem;
+   font-weight: 500;
+}
+
+.content {
+   padding: 0 30rem;
+   margin-top: 5rem;
+}
+.content__list {
+   display: grid;
+   grid-template-columns: repeat(
+      4,
+      1fr
+   ); /* Sử dụng repeat() để tạo 4 cột với chiều rộng bằng nhau */
+   justify-content: center;
+   grid-gap: 10px;
+}
+.content__items {
+   text-align: center;
+}
+.img img {
+   width: 35rem;
+}
+.title {
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+   font-size: 3rem;
+}
+.context {
+   font-size: 1.8rem;
+   margin-bottom: 3rem;
+}
+
+.page__list {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-bottom: 3rem;
+   margin: 2rem 0 2rem;
+   border-bottom: 0.3rem solid var(--color-bg-btn);
+}
+
+.page__item a {
+   font-size: 3rem;
+   color: var(--color-black);
+   text-decoration: none;
+   padding: 2rem;
+}
+.page__item a:hover {
+   color: var(--color-white);
+   background-color: var(--color-black);
+}
