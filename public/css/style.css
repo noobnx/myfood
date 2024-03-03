@@ -23,7 +23,11 @@ header {
    top: 0;
    background-color: var(--color-white);
 }
-
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 .menu__icon {
    padding: 2rem 1.5rem;
    cursor: pointer;
@@ -72,7 +76,10 @@ header {
 }
 
 .content {
-   padding: 0 30rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 25rem;
    margin-top: 5rem;
 }
 .content__list {
@@ -82,7 +89,6 @@ header {
       1fr
    ); /* Sử dụng repeat() để tạo 4 cột với chiều rộng bằng nhau */
    justify-content: center;
-   grid-gap: 10px;
 }
 .content__items {
    text-align: center;
@@ -91,8 +97,7 @@ header {
    width: 35rem;
 }
 .title {
-   margin-top: 2rem;
-   margin-bottom: 1rem;
+   margin: 5rem 0 3rem;
    font-size: 3rem;
 }
 .context {
@@ -103,7 +108,6 @@ header {
 .page__list {
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
    padding-bottom: 3rem;
    margin: 2rem 0 2rem;
    border-bottom: 0.3rem solid var(--color-bg-btn);
@@ -118,4 +122,83 @@ header {
 .page__item a:hover {
    color: var(--color-white);
    background-color: var(--color-black);
+}
+
+.about {
+   width: calc(100% - 66rem);
+   text-align: center;
+   border-bottom: 0.3rem solid var(--color-bg-btn);
+}
+strong {
+   display: block;
+   font-size: 3rem;
+   font-weight: 900;
+   margin: 2rem 0 1rem;
+}
+i {
+   display: block;
+   font-style: italic;
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+.context {
+   margin-bottom: 10rem;
+}
+
+footer {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 10rem;
+}
+.author {
+   width: 40rem;
+}
+.author h1,
+.blog h1,
+.tags h1 {
+   font-size: 3rem;
+   margin-bottom: 1rem;
+}
+.author p {
+   margin-bottom: 1rem;
+}
+.blog {
+}
+.post {
+   width: 25rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   padding: 1rem 5rem 1rem 1rem;
+}
+.post:hover {
+   background-color: var(--color-bg-btn);
+   cursor: pointer;
+}
+.post img {
+   height: 7rem;
+}
+.post__context h2 {
+   font-size: 2rem;
+}
+.tags ul {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-gap: 0.5rem;
+}
+
+.country__list .country__item:first-child {
+   color: var(--color-white);
+   background-color: var(--color-black);
+}
+
+.country__item {
+   text-align: center;
+   padding: 0.5rem;
+   color: var(--color-white);
+   background-color: #616161;
+}
+.country__item:hover {
+   background-color: var(--color-black);
+   cursor: pointer;
 }

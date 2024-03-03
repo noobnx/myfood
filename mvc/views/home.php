@@ -163,8 +163,99 @@
                 </a>
             </ul>
         </div>
+        <div class="about">
+            <h1 class="title">About Me, The Food Man</h1>
+            <div class="chef">
+                <img src="./public/images/chef.jpg" alt="image chef">
+            </div>
+            <p><strong>I am Who I Am!</strong></p>
+            <p><i>With Passion For Real, Good Food</i></p>
+            <p class="context">
+                Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+            </p>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="author">
+            <h1>FOOTER</h1>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Powered by Noobnx</p>
+        </div>
+        <div class="blog">
+            <h1>BLOG POSTS</h1>
+            <div class="post">
+                <div class="post__img">
+                    <img src="./public/images/workshop.jpg" alt="image workshop">
+                </div>
+                <div class="post__context">
+                    <h2>Lorem</h2>
+                    <p>Sed mattis nunc</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post__img">
+                    <img src="./public/images/gondol.jpg" alt="image gondol">
+                </div>
+                <div class="post__context">
+                    <h2>Ipsum</h2>
+                    <p>Praes tinci sed</p>
+                </div>
+            </div>
+        </div>
+        <div class="tags">
+            <h1>POPULAR TAGS</h1>
+            <ul class="country__list">
+                <li class="country__item">
+                    <p>Travel</p>
+                </li>
+                <li class="country__item">
+                    <p>VietNam</p>
+                </li>
+                <li class="country__item">
+                    <p>NewYork</p>
+                </li>
+                <li class="country__item">
+                    <p>Dimer</p>
+                </li>
+                <li class="country__item">
+                    <p>Salmon</p>
+                </li>
+                <li class="country__item">
+                    <p>France</p>
+                </li>
+                <li class="country__item">
+                    <p>Drinks</p>
+                </li>
+                <li class="country__item">
+                    <p>Ideas</p>
+                </li>
+                <li class="country__item">
+                    <p>Ideas</p>
+                </li>
+                <li class="country__item">
+                    <p>Flavors</p>
+                </li>
+                <li class="country__item">
+                    <p>Cuisine</p>
+                </li>
+                <li class="country__item">
+                    <p>Chicken</p>
+                </li>
+                <li class="country__item">
+                    <p>Dressing</p>
+                </li>
+                <li class="country__item">
+                    <p>Fried</p>
+                </li>
+                <li class="country__item">
+                    <p>Fish</p>
+                </li>
+                <li class="country__item">
+                    <p>Duck</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
     <script src="./public/js/main.js"></script>
 </body>
 </html>
