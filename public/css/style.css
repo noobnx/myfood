@@ -89,6 +89,7 @@ main {
       1fr
    ); /* Sử dụng repeat() để tạo 4 cột với chiều rộng bằng nhau */
    justify-content: center;
+   gap: 1rem;
 }
 .content__items {
    text-align: center;
